@@ -1,0 +1,75 @@
+# 自由开发模板说明 #
+你如果需要开发模板，请看此文章。
+
+
+# 详细说明 #
+PHPdtb 的模板开发请先看以下说明
+存放路径在根目录/template
+
+默认目录结果是这样的。
+./template/
+./template/default
+./template/default/en-us    (英文模板目录)
+./template/default/zh-cn     (中文模板目录)
+
+你要建立一个新的模板只需要建立对应的目录就可以了，改一下default为你的模板名称，只能是英文字母。
+中英文目录名是固定的。
+
+进入中英文目录后
+里面会有 images javascript orther style
+这些目录是这样分配的。
+
+images      存放图片的目录。模板详细开发，请直接看默认模板。
+javascript  存放JS的目录。默认模板中使用了Jquery 框架。
+orther       存放其它文件的，如果FLASH等文件。
+style         存放模板样式的目录
+
+注意，PHPdtb 模板采用了最流行的PHP模板引擎Smarty 。
+
+请先看一下默认模板的写法，再进行模板开发。
+另外要查看每个变量的详细，请在index.php 文件中进行输出就可以了。
+推荐在调用模板结束前，使用PHP代码 print\_r($GLOBAL);
+复制代码这样可以查看所有变量的详细。
+
+开发好的模板，如果愿意，请在本版发布跟大家分享。
+
+开源是伟大的，更需要大家的共同支持，你使用开源软件的同时也是对开源的一种支持。
+
+> summary One-sentence summary of this page.
+
+# Freedom to develop a template description #
+If you need to develop a template, see this article.
+
+
+# Detailed description #
+PHPdtb template development please see the following note
+Stored in the root directory path / template
+
+The result is the default directory like this.
+. / template /
+. / template / default
+. / template / default / en-us (English template directory)
+. / template / default / zh-cn (Chinese template directory)
+
+You have to create a new template only need to establish the corresponding directory on it, change the default template for your name, only letters of the alphabet.
+Chinese and English directory name is fixed.
+
+Directory after entering the Chinese and English
+There will be images javascript orther style
+These directories are allocated as such.
+
+images stored picture directory. Detailed the development of templates, please see the default template.
+javascript stored JS directory. The default template used Jquery framework.
+orther store other documents, if FLASH and other documents.
+style directory stored template style
+
+Note, PHPdtb template using the most popular PHP template engine Smarty.
+
+Please look at the wording of the default template, and then carried out to develop a template.
+In addition To view details of each variable, please index.php file for output on it.
+Recommended in the call before the end of the template, the use of PHP code print\_r ($ GLOBAL);
+Copy this code can view details of all the variables.
+
+The development of a good template, if you wish, please Excerpts released by sharing with you.
+
+Open source is a great need everyone's support, you use open source software is also a kind of support for open source.
